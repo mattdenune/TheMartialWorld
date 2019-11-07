@@ -68,12 +68,13 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Component | Description | 
 | --- | :---: |  
 | Header | This will render the header include the nav | 
+| About | This will render info about the author| 
 | Footer | This will render the Footer | 
 | App | This will render all Components via Routes | 
 | Main | This will contain MA by Country, Individual MA and Edit Form | 
-| MA by Country | This will contain all included MA by country | 
-| Individual MA | This will contain individual MA and link to edit form | 
-| Edit Form | This will contain the edit and delete form | 
+| List All MA | This will contain all included MA by country | 
+| List Single MA | This will contain individual MA and button to edit form | 
+| Edit MA | This will contain the edit and delete form with inputs and a submit button | 
 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
