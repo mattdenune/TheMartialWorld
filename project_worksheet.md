@@ -54,7 +54,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## Architectural Design
 
-<img src="react_architecture.png">
+<img src="images/react_architecture.png">
 
 ## ERD
 
