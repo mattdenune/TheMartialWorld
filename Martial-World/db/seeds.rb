@@ -219,7 +219,7 @@ martial_arts = MartialArts.create([{
     },
     {
     name: "Shootfighting",
-    origin: "Japan",
+    origin: "United States",
     founder: "Bart Vale",
     founder_img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FLh1zxei4toY%2Fhqdefault.jpg&f=1&nofb=1",
     type: "Hybrid",
@@ -230,20 +230,96 @@ martial_arts = MartialArts.create([{
     Examples which were once considered shootfighting styles, tournaments or organizations are Pancrase, Shoot boxing and Shooto, where many fighters still considered themselves to be shootfighters. Ken Shamrock is possibly the most recognisable shoot fighter, as this was the discipline he was credited as using in the early days of the UFC."
     },
     {
-    name: "",
-    origin: "",
-    founder: "",
-    founder_img: "",
-    type: "",
-    description: ""
+    name: "Wing Chun",
+    origin: "China",
+    founder: "Ng Mui of the Five Elders",
+    founder_img: "https://www.historyoffighting.com/resources/Yim%20Wing%20Chun%20Article.jpg?timestamp=1394122504806",
+    type: "Striking",
+    description: "Wing Chun Kuen, usually called Wing Chun, is a concept-based traditional Southern Chinese Kung fu (wushu) style and a form of self-defence, also known as 'beautiful springtime', that requires quick arm movements and strong legs to defeat opponents. Softness (via relaxation) and performance of techniques in a relaxed manner is fundamental to Wing Chun. According to legend, it was created by Ng Mui, an abbess who taught it to her student Yim Wing-chun as a means to defend herself against unwanted advances. The martial art is named after her. According to Ip Man, 'Chi Sau in Wing Chun is to maintain one's flexibility and softness, all the while keeping in the strength to fight back, much like the flexible nature of bamboo'. Notable practitioners of Wing Chun include Ip Man, Bruce Lee, Brandon Lee, Jackie Chan, Donnie Yen, Robert Downey Jr."
     },
     {
-    name: "",
-    origin: "",
-    founder: "",
-    founder_img: "",
-    type: "",
-    description: ""
+    name: "Hung Ga",
+    origin: "China",
+    founder: "Hung Hei-gun[",
+    founder_img: "http://hung-gar-kung-fu.netfirms.com/hunggar22.gif",
+    type: "Striking",
+    description: "Hung Ga, Hung Kuen, or Hung Ga Kuen is a southern Chinese martial art (Cantonese, to be more specific) belonging to the southern shaolin styles. It is associated with the Cantonese folk hero Wong Fei Hung, a Hung Ga master.
+
+    The hallmarks of the Wong Fei-Hung lineage of Hung Ga are deep low stances, notably the horse stance, and strong hand techniques, notably the bridge handand the versatile tiger claw. Traditionally, students spent anywhere from several months to three years in stance training, often sitting only in horse stance from half an hour to several hours at a time, before learning any forms. Each form could then take a year or so to learn, with weapons learned last. In current times, this mode of instruction is generally considered impractical for students, who have other concerns beyond practicing kung fu. However, some instructors still follow traditional guidelines and make stance training the majority of their beginner training. Hung Ga is sometimes mis-characterized as solely external—that is, reliant on brute physical force rather than the cultivation of qi—even though the student advances progressively towards an internal focus."
+    },
+    {
+    name: "Tai chi",
+    origin: "China",
+    founder: "Chen Wangting",
+    founder_img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Chen_Wanting.jpg/220px-Chen_Wanting.jpg",
+    type: "Internal",
+    description: "Tai chi, short for T'ai chi ch'üan or Tàijí quán, is an internal Chinese martial art practiced for both its defense training, its health benefits and meditation. The term taiji is a Chinese cosmological concept that refers to the flux of yin and yang, and 'quan' means fist. So, etymologically, Taijiquan is a fist system based on the dynamic relationship between polarities (Yin and Yang). Though originally conceived as a martial art, it is also typically practiced for a variety of other personal reasons: competitive wrestling in the format of pushing hands (tui shou), demonstration competitions and achieving greater longevity. As a result, a multitude of training forms exist, both traditional and modern, which correspond to those aims with differing emphasis. Some training forms of tai chi are especially known for being practiced with relatively slow movements.
+
+    Today, tai chi has spread worldwide. Most modern styles of tai chi trace their development to at least one of the five traditional schools: Chen, Yang, Wu (Hao), Wu and Sun. All of the former, in turn, trace their historical origins to Chen Village."
+    },
+    {
+    name: "Taekkyeon",
+    origin: "Korea",
+    founder: "unknown",
+    founder_img: "https://upload.wikimedia.org/wikipedia/commons/8/84/Taekkyon_demonstration2.png",
+    type: "Hybrid",
+    description: "Taekkyon (other informal romanizations include Taekgyeon, Taekkyeon, or Taekyun) is a traditional Korean martial art.
+
+    It is characterized by fluid, dynamic foot movement called "pum balgi" or Stepping-on-Triangles. Taekkyon is concerned with applying both the hands and feet at the same time to unbalance, trip, or throw the opponent. Hands and feet are always used together. Taekkyon has many leg and whole-body techniques with fully integrated armwork. Although Taekkyon primarily utilizes kicking, punching, and arm strikes thrown from a mobile stance and does not provide a framework for groundfighting, it does incorporate a variety of different throws, takedowns, and grappling techniques to complement its striking focus.
+
+    In the twentieth century, Taekkyon has come to be seen as a living link to Korea's past. As such, it has provided historical references for modern Korean martial arts and is often considered as the oldest martial discipline of Korea."
+    },
+    {
+    name: "Hapkido",
+    origin: "South Korea",
+    founder: "Choi Yong-Sool",
+    founder_img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Choi_Yong-sool_portrait_888.jpg/1280px-Choi_Yong-sool_portrait_888.jpg",
+    type: "Hybrid",
+    description: "Hapkido also spelled hap ki do or hapki-do; from Korean hapgido is a highly eclectic Korean martial art. It is a form of self-defense that employs joint locks, grappling, and throwing techniques similar to those of other martial arts, as well as kicks, punches, and other striking attacks. It also teaches the use of traditional weapons, including knife, sword, rope, ssang juhl bong (nunchaku), cane (ji pang ee), short stick (dan bong), and middle-length staff (joong bong), gun (analogous to the Japanese jō), and bō (Japanese), which vary in emphasis depending on the particular tradition examined.
+
+    Hapkido employs both long-range and close-range fighting techniques, utilizing jumping kicks and percussive hand strikes at longer ranges, and pressure point strikes, joint locks, and throws at closer fighting distances. Hapkido emphasizes circular motion, redirection of force, and control of the opponent. Practitioners seek to gain advantage over their opponents through footwork and body positioning to incorporate the use of leverage, avoiding the use of brute strength against brute strength.
+
+    The art was adapted from Daitō-ryū Aiki-jūjutsu as it was taught by Choi Yong-Sool when he returned to Korea after World War II after having lived in Japan for 30 years. This system was later combined by Choi´s disciples with kicking and striking techniques of indigenous and contemporary arts such as Taekkyon, and Tang Soo Do; as well as various throwing techniques and ground fighting from Japanese judo."
+    },
+    {
+    name: "Muay Thai",
+    origin: "Thailand",
+    founder: "unknown",
+    founder_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZk9mPprjdXEoY13Qo3m-wYpZL8K5qU30VE7stmqfmBOcDPNiA",
+    type: "Striking",
+    description: "Muay Thai or literally Thai boxing is a combat sport of Thailand that uses stand-up striking along with various clinching techniques. This discipline is known as the 'art of eight limbs' as it is characterized by the combined use of fists, elbows, knees, and shins. Muay Thai became widespread internationally in the late 20th to 21st century, when westernized practitioners from Thailand began competing in kickboxing, mixed rules matches, as well as matches under Muay Thai rules around the world. The professional league is governed by The Professional Boxing Association of Thailand (P.A.T) sanctioned by The Sports Authority of Thailand (SAT), and World Professional Muaythai Federation (WMF) overseas."
+    },
+    {
+    name: "Karate",
+    origin: "Japan",
+    founder: "unknown",
+    founder_img: "https://elitekarateblog.files.wordpress.com/2017/04/funakoshigichin-e1494027651108.jpg?w=450",
+    type: "Striking",
+    description: "Karate is a martial art developed in the Ryukyu Kingdom. It developed from the indigenous Ryukyuan martial arts under the influence of Kung Fu, particularly Fujian White Crane. Karate is now predominantly a striking art using punching, kicking, knee strikes, elbow strikes and open-hand techniques such as knife-hands, spear-hands and palm-heel strikes. Historically, and in some modern styles, grappling, throws, joint locks, restraints and vital-point strikes are also taught. A karate practitioner is called a karateka."
+    },
+    {
+    name: "Aikido",
+    origin: "Japan",
+    founder: "Morihei Ueshiba",
+    founder_img: "https://upload.wikimedia.org/wikipedia/en/0/0f/Morihei_Ueshiba_Portrait.jpg",
+    type: "Wrestling",
+    description: "Aikido is a modern Japanese martial art developed by Morihei Ueshiba as a synthesis of his martial studies, philosophy and religious beliefs. Ueshiba's goal was to create an art that practitioners could use to defend themselves while also protecting their attacker from injury. Aikido is often translated as 'the way of unifying (with) life energy' or as 'the way of harmonious spirit'.
+
+    Aikido's techniques include: irimi (entering), and tenkan (turning) movements (that redirect the opponent's attack momentum), various types of throws and joint locks.
+
+    Aikido derives mainly from the martial art of Daitō-ryū Aiki-jūjutsu, but began to diverge from it in the late 1920s, partly due to Ueshiba's involvement with the Ōmoto-kyō religion. Ueshiba's early students' documents bear the term aiki-jūjutsu.
+
+    Ueshiba's senior students have different approaches to aikido, depending partly on when they studied with him. Today, aikido is found all over the world in a number of styles, with broad ranges of interpretation and emphasis. However, they all share techniques formulated by Ueshiba and most have concern for the well-being of the attacker."
+    },
+    {
+    name: "Judo",
+    origin: "Japan",
+    founder: "	Kanō Jigorō",
+    founder_img: "https://upload.wikimedia.org/wikipedia/commons/9/95/Kanō_Jigorō_c1937.jpg",
+    type: "Wrestling",
+    description: "Judo was originally created in 1882 by Jigoro Kano as a physical, mental, and moral pedagogy in Japan. It is generally categorized as a modern martial art, which later evolved into a combat and Olympic sport. Its most prominent feature is its competitive element, where the objective is to either throw or take down an opponent to the ground, immobilize or otherwise subdue an opponent with a pin, or force an opponent to submit with a joint lock or a choke. Strikes and thrusts by hands and feet as well as weapons defences are a part of judo, but only in pre-arranged forms and are not allowed in judo competition or free practice. A judo practitioner is called a judoka.
+
+    The philosophy and subsequent pedagogy developed for judo became the model for other modern Japanese martial arts that developed from koryū (traditional schools). Judo also spawned a number of derivative martial arts across the world, such as Brazilian jiu-jitsu, Krav Maga and Sambo."
     },
     {
     name: "",
