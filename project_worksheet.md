@@ -22,15 +22,15 @@ You are **responsible** for attending squad standup at the begining and end of t
 The Martial World will allow the user to learn about all the martial arts of the world; their country of origin, the founder of the art and a description of its roots. In full CRUD fashion they will be able to add Martial Arts they know about or delete ones they believe are erronious.
 
 ## Wireframes
-<img src="list_of_all_MA.png">
-<img src="list_of_all_MA_mobile.png">
-<img src="single_MA.png">
-<img src="single_MA_mobile.png">
-<img src="edit_form.png">
-<img src="edit_form_mobile.png">
+<img src="Images/list_of_all_MA.png">
+<img src="Images/list_of_all_MA_mobile.png">
+<img src="Images/single_MA.png">
+<img src="Images/single_MA_mobile.png">
+<img src="Images/edit_form.png">
+<img src="Images/edit_form_mobile.png">
 
 ## Priority Matrix
-<img src="priority_matrix.png">
+<img src="Images/priority_matrix.png">
 
 ### MVP/PostMVP - 5min
 
@@ -54,11 +54,11 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## Architectural Design
 
-<img src="images/react_architecture.png">
+<img src="Images/react_architecture.png">
 
 ## ERD
 
-<img src="ERD.png">
+<img src="Images/ERD.png">
 
 ## UI Components
 
