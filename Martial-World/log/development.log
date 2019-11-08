@@ -1,0 +1,2 @@
+  [1m[35m (507.2ms)[0m  [1m[35mCREATE DATABASE "Martial_World_development" ENCODING = 'unicode'[0m
+  [1m[35m (392.3ms)[0m  [1m[35mCREATE DATABASE "Martial_World_test" ENCODING = 'unicode'[0m

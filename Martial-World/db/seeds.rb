@@ -357,3 +357,5 @@ Art.create([{
     },
     
 ])
+
+puts "#{Art.count} Martial Arts created!"
