@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-martial_arts = MartialArts.create([{
+Art.create([{
     name: "Bartitsu",
     origin: "England",
     founder: "E.W. Barton-Wright",
@@ -322,36 +322,38 @@ martial_arts = MartialArts.create([{
     The philosophy and subsequent pedagogy developed for judo became the model for other modern Japanese martial arts that developed from koryū (traditional schools). Judo also spawned a number of derivative martial arts across the world, such as Brazilian jiu-jitsu, Krav Maga and Sambo."
     },
     {
-    name: "",
-    origin: "",
-    founder: "",
-    founder_img: "",
-    type: "",
-    description: ""
+    name: "Capoeira",
+    origin: "Brazil",
+    founder: "unknown",
+    founder_img: "https://upload.wikimedia.org/wikipedia/commons/2/28/CapoeiraEarle.JPG",
+    type: "Striking",
+    description: "Capoeira (Portuguese pronunciation: [kapuˈejɾɐ] or [kaˈpwɐjɾɐ]) is an Afro-Brazilian martial art that combines elements of dance, acrobatics, and music. It was developed by enslaved Africans in Brazil at the beginning of the 16th century. It is known for its acrobatic and complex maneuvers, often involving hands on the ground and inverted kicks. Emphasizes flowing movements rather than fixed stances, the ginga, a rocking step, is usually the focal point of the technique. The most widely accepted origin of the word capoeira comes from the Tupi words ka'a ('forest') paũ ('round'), referring to the areas of low vegetation in the Brazilian interior where fugitive slaves would hide. A practitioner of the art is called a capoeirista.
+
+    On 26 November 2014, capoeira was granted a special protected status as intangible cultural heritage by UNESCO."
     },
     {
-    name: "",
-    origin: "",
-    founder: "",
-    founder_img: "",
-    type: "",
-    description: ""
+    name: "Laamb Wrestling",
+    origin: "Senegal",
+    founder: "Serer people",
+    founder_img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Dakar-Marabout.jpg/1280px-Dakar-Marabout.jpg",
+    type: "Wrestling",
+    description: "Senegalese wrestling called 'Laamb' or Njom in Serer originated from the Serer Kingdom of Sine. It was a preparatory exercise for war among the warrior classes. That style of wrestling (a brutal and violent form) is totally different from the sport wrestling enjoyed by all Senegambian ethnic groups today, nevertheless the ancient rituals are still visible in the sport version. Among the Serers, wrestling is classified into different techniques and each technique takes several years to master. Children start young trying to master the basics before moving on to the more advance techniques like the 'mbapatte', which is one of the oldest techniques and totally different from modern wrestling. Yékini (real name: 'Yakhya Diop'), who is a professional wrestler in Senegal is one of the top wrestlers proficient in the 'mbapatt' technique. Lamba and sabar (musical instruments) are used as music accompaniments in wrestling matches as well as in circumcision dances and royal festivals. Serer wrestling crosses ethnic boundaries and is a favourite pastime for Senegalese and Gambians alike."
     },
     {
-    name: "",
-    origin: "",
-    founder: "",
-    founder_img: "",
-    type: "",
-    description: ""
+    name: "Silambam",
+    origin: "India",
+    founder: "Agastya, a revered Vedic sage of Hinduism",
+    founder_img: "https://upload.wikimedia.org/wikipedia/commons/0/0b/AgasthiyarG.jpg",
+    type: "Weapon",
+    description: "Silambam is a weapon-based martial art of India, more specifically from Tamilakam (now Tamil Nadu region) in the Indian subcontinent. This ancient fighting style is mentioned in Tamil Sangam literature 400 BCE"
     },
     {
-    name: "",
-    origin: "",
-    founder: "",
-    founder_img: "",
-    type: "",
-    description: ""
+    name: "Kalaripayattu",
+    origin: "India",
+    founder: "Unknown",
+    founder_img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flh6.googleusercontent.com%2F-yojkTpPhn8s%2FUSyzFTCsW5I%2FAAAAAAAAABk%2FbjO1af6S3dA%2Fs800%2FKalaripayattu.jpg&f=1&nofb=1",
+    type: "Hybrid",
+    description: "Kalaripayattu (sometimes shortened as Kalari) is an Indian martial art and fighting system that originated in Kerala. There is also a mention about Tulunadan Kalari in the Northern ballads of chekavar in Malabar. In Kerala, the warriors belonged to all castes. It is considered by some to be the oldest martial art still in existence, with its origin dating back to at least the 6th century BCE. Because of this, Kalaripayattu has been called The Mother Of All Martial Arts."
     },
     
 ])
