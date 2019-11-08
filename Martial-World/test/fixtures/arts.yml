@@ -5,7 +5,7 @@ one:
   origin: MyString
   founder: MyString
   founder_img: MyString
-  type: 
+  style: MyString
   description: MyText
 
 two:
@@ -13,5 +13,5 @@ two:
   origin: MyString
   founder: MyString
   founder_img: MyString
-  type: 
+  style: MyString
   description: MyText

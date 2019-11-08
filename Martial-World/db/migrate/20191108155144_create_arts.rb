@@ -5,7 +5,7 @@ class CreateArts < ActiveRecord::Migration[6.0]
       t.string :origin
       t.string :founder
       t.string :founder_img
-      t.string :type
+      t.string :style
       t.text :description
 
       t.timestamps
