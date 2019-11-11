@@ -272,3 +272,318 @@ Processing by ArtsController#index as */*
 Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.7ms | Allocations: 7621)
 
 
+Started GET "/arts/3" for ::1 at 2019-11-08 14:02:17 -0500
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArtsController#show as */*
+  Parameters: {"name"=>"Dirk the mess", "photo"=>"https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffarm4.staticflickr.com%2F3235%2F3585452459_191c2389aa.jpg&f=1&nofb=1", "id"=>"3", "art"=>{"name"=>"Dirk the mess"}}
+  [1m[36mArt Load (0.5ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:9:in `show'
+Completed 200 OK in 14ms (Views: 0.6ms | ActiveRecord: 6.3ms | Allocations: 6699)
+
+
+Started POST "/arts" for ::1 at 2019-11-08 14:06:56 -0500
+Processing by ArtsController#create as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"B-Ball Court", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes.", "art"=>{"name"=>"Shaq-Fu", "origin"=>"B-Ball Court", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes."}}
+[31mUnpermitted parameter: :art[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/arts_controller.rb:31:in `create'
+  [1m[36mArt Create (1.2ms)[0m  [1m[32mINSERT INTO "arts" ("name", "origin", "founder", "founder_img", "style", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "Shaq-Fu"], ["origin", "B-Ball Court"], ["founder", "Shaquille O'Neal"], ["founder_img", "https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png"], ["style", "Striking"], ["description", "A devistating style of street basketball strikes."], ["created_at", "2019-11-08 19:06:56.368912"], ["updated_at", "2019-11-08 19:06:56.368912"]]
+  ↳ app/controllers/arts_controller.rb:31:in `create'
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/arts_controller.rb:31:in `create'
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 2.3ms | Allocations: 2721)
+
+
+Started PUT "/arts/38" for ::1 at 2019-11-08 14:09:42 -0500
+Processing by ArtsController#update as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes.", "id"=>"38", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes."}}
+[31mUnpermitted parameters: :id, :art[0m
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 598)
+
+
+  
+NoMethodError (undefined method `update' for nil:NilClass):
+  
+app/controllers/arts_controller.rb:44:in `update'
+Started GET "/arts/38" for ::1 at 2019-11-08 14:10:05 -0500
+Processing by ArtsController#show as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes.", "id"=>"38", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes."}}
+  [1m[36mArt Load (0.5ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:9:in `show'
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.5ms | Allocations: 823)
+
+
+Started PUT "/arts/38" for ::1 at 2019-11-08 14:11:53 -0500
+Processing by ArtsController#update as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes.", "id"=>"38", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes."}}
+[31mUnpermitted parameters: :id, :art[0m
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 588)
+
+
+  
+NoMethodError (undefined method `update' for nil:NilClass):
+  
+app/controllers/arts_controller.rb:44:in `update'
+Started PUT "/arts/38" for ::1 at 2019-11-08 14:13:51 -0500
+  
+SyntaxError (/Users/mattdenune/Desktop/General_Assembly/unit_4/project_4/The-Martial-Word/Martial-World/app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+                art: @art
+                ^~~):
+  
+app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+Started GET "/arts/38" for ::1 at 2019-11-08 14:14:35 -0500
+  
+SyntaxError (/Users/mattdenune/Desktop/General_Assembly/unit_4/project_4/The-Martial-Word/Martial-World/app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+                art: @art
+                ^~~):
+  
+app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+Started GET "/arts" for ::1 at 2019-11-08 14:14:43 -0500
+  
+SyntaxError (/Users/mattdenune/Desktop/General_Assembly/unit_4/project_4/The-Martial-Word/Martial-World/app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+                art: @art
+                ^~~):
+  
+app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+Started GET "/arts" for ::1 at 2019-11-08 14:15:18 -0500
+  
+SyntaxError (/Users/mattdenune/Desktop/General_Assembly/unit_4/project_4/The-Martial-Word/Martial-World/app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+                art: @art
+                ^~~):
+  
+app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+Started GET "/arts" for ::1 at 2019-11-08 14:15:29 -0500
+  
+SyntaxError (/Users/mattdenune/Desktop/General_Assembly/unit_4/project_4/The-Martial-Word/Martial-World/app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+                art: @art
+                ^~~):
+  
+app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+Started GET "/arts?38" for ::1 at 2019-11-08 14:15:37 -0500
+  
+SyntaxError (/Users/mattdenune/Desktop/General_Assembly/unit_4/project_4/The-Martial-Word/Martial-World/app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+                art: @art
+                ^~~):
+  
+app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+Started GET "/arts/38" for ::1 at 2019-11-08 14:15:41 -0500
+  
+SyntaxError (/Users/mattdenune/Desktop/General_Assembly/unit_4/project_4/The-Martial-Word/Martial-World/app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+                art: @art
+                ^~~):
+  
+app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/arts_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting '}'
+Started GET "/arts/38" for ::1 at 2019-11-08 14:17:22 -0500
+Processing by ArtsController#show as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes.", "id"=>"38", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes."}}
+  [1m[36mArt Load (0.2ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:9:in `show'
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 3.5ms | Allocations: 5900)
+
+
+Started PUT "/arts/38" for ::1 at 2019-11-08 14:17:42 -0500
+Processing by ArtsController#update as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes.", "id"=>"38", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes."}}
+[31mUnpermitted parameters: :id, :art[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 588)
+
+
+  
+NoMethodError (undefined method `update' for nil:NilClass):
+  
+app/controllers/arts_controller.rb:44:in `update'
+Started GET "/arts" for ::1 at 2019-11-08 14:18:15 -0500
+Processing by ArtsController#index as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes.", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes."}}
+  [1m[36mArt Load (0.6ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:4:in `index'
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.6ms | Allocations: 7808)
+
+
+Started GET "/arts/38" for ::1 at 2019-11-08 14:19:29 -0500
+Processing by ArtsController#show as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes.", "id"=>"38", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes."}}
+  [1m[36mArt Load (0.3ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:9:in `show'
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 3.2ms | Allocations: 5918)
+
+
+Started PUT "/arts/38" for ::1 at 2019-11-08 14:19:34 -0500
+Processing by ArtsController#update as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes.", "id"=>"38", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes."}}
+[31mUnpermitted parameters: :id, :art[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 587)
+
+
+  
+NoMethodError (undefined method `update' for nil:NilClass):
+  
+app/controllers/arts_controller.rb:44:in `update'
+Started GET "/arts/38" for ::1 at 2019-11-08 14:22:46 -0500
+Processing by ArtsController#show as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes.", "id"=>"38", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes."}}
+  [1m[36mArt Load (0.5ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:9:in `show'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.5ms | Allocations: 807)
+
+
+Started GET "/arts" for ::1 at 2019-11-08 14:25:43 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.7ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:4:in `index'
+Completed 200 OK in 38ms (Views: 32.5ms | ActiveRecord: 4.4ms | Allocations: 14151)
+
+
+Started DELETE "/arts/38" for ::1 at 2019-11-08 14:26:57 -0500
+Processing by ArtsController#destroy as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes.", "id"=>"38", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes."}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 472)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  
+app/controllers/arts_controller.rb:57:in `destroy'
+Started DELETE "/arts/38" for ::1 at 2019-11-08 14:29:51 -0500
+  
+SyntaxError (/Users/mattdenune/Desktop/General_Assembly/unit_4/project_4/The-Martial-Word/Martial-World/app/controllers/arts_controller.rb:2: syntax error, unexpected [, expecting do or '{' or '('
+... before_action :set_art, only [:show, :update, :destroy]
+...                              ^):
+  
+app/controllers/arts_controller.rb:2: syntax error, unexpected [, expecting do or '{' or '('
+app/controllers/arts_controller.rb:2: syntax error, unexpected [, expecting do or '{' or '('
+Started DELETE "/arts/38" for ::1 at 2019-11-08 14:30:29 -0500
+Processing by ArtsController#destroy as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes.", "id"=>"38", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes."}}
+  [1m[36mArt Load (0.2ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:68:in `set_art'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/arts_controller.rb:59:in `destroy'
+  [1m[36mArt Destroy (0.3ms)[0m  [1m[31mDELETE FROM "arts" WHERE "arts"."id" = $1[0m  [["id", 38]]
+  ↳ app/controllers/arts_controller.rb:59:in `destroy'
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/arts_controller.rb:59:in `destroy'
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 5.3ms | Allocations: 7774)
+
+
+Started GET "/arts" for ::1 at 2019-11-08 14:30:42 -0500
+Processing by ArtsController#index as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes.", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes."}}
+  [1m[36mArt Load (0.6ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 22ms (Views: 10.5ms | ActiveRecord: 0.6ms | Allocations: 7642)
+
+
+Started POST "/arts" for ::1 at 2019-11-08 14:30:53 -0500
+Processing by ArtsController#create as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes.", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes."}}
+[31mUnpermitted parameter: :art[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/arts_controller.rb:33:in `create'
+  [1m[36mArt Create (0.9ms)[0m  [1m[32mINSERT INTO "arts" ("name", "origin", "founder", "founder_img", "style", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "Shaq-Fu"], ["origin", "United States"], ["founder", "Shaquille O'Neal"], ["founder_img", "https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png"], ["style", "Striking"], ["description", "A devistating style of street basketball strikes."], ["created_at", "2019-11-08 19:30:53.577276"], ["updated_at", "2019-11-08 19:30:53.577276"]]
+  ↳ app/controllers/arts_controller.rb:33:in `create'
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/arts_controller.rb:33:in `create'
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 2.5ms | Allocations: 2711)
+
+
+Started PUT "/arts/38" for ::1 at 2019-11-08 14:34:40 -0500
+Processing by ArtsController#update as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes. Developed on a whim with little to no training, the style is gladly forgotten by the masses.", "id"=>"38", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes. Developed on a whim with little to no training, the style is gladly forgotten by the masses."}}
+  [1m[36mArt Load (0.3ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:68:in `set_art'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.3ms | Allocations: 618)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Art with 'id'=38):
+  
+app/controllers/arts_controller.rb:68:in `set_art'
+Started GET "/arts/38" for ::1 at 2019-11-08 14:34:58 -0500
+Processing by ArtsController#show as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes. Developed on a whim with little to no training, the style is gladly forgotten by the masses.", "id"=>"38", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes. Developed on a whim with little to no training, the style is gladly forgotten by the masses."}}
+  [1m[36mArt Load (0.4ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:68:in `set_art'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.4ms | Allocations: 617)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Art with 'id'=38):
+  
+app/controllers/arts_controller.rb:68:in `set_art'
+Started GET "/arts" for ::1 at 2019-11-08 14:35:04 -0500
+Processing by ArtsController#index as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes. Developed on a whim with little to no training, the style is gladly forgotten by the masses.", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes. Developed on a whim with little to no training, the style is gladly forgotten by the masses."}}
+  [1m[36mArt Load (0.7ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.7ms | Allocations: 7796)
+
+
+Started GET "/arts/39" for ::1 at 2019-11-08 14:35:51 -0500
+Processing by ArtsController#show as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes. Developed on a whim with little to no training, the style is gladly forgotten by the masses.", "id"=>"39", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes. Developed on a whim with little to no training, the style is gladly forgotten by the masses."}}
+  [1m[36mArt Load (0.4ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:68:in `set_art'
+  [1m[36mCACHE Art Load (0.1ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:11:in `show'
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.5ms | Allocations: 1248)
+
+
+Started PUT "/arts/39" for ::1 at 2019-11-08 14:36:04 -0500
+Processing by ArtsController#update as */*
+  Parameters: {"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes. Developed on a whim with little to no training, the style is gladly forgotten by the masses.", "id"=>"39", "art"=>{"name"=>"Shaq-Fu", "origin"=>"United States", "founder"=>"Shaquille O'Neal", "founder_img"=>"https://upload.wikimedia.org/wikipedia/en/e/e9/ShaqFu_logo.png", "style"=>"Striking", "description"=>"A devistating style of street basketball strikes. Developed on a whim with little to no training, the style is gladly forgotten by the masses."}}
+  [1m[36mArt Load (0.4ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:68:in `set_art'
+[31mUnpermitted parameters: :id, :art[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/arts_controller.rb:46:in `update'
+  [1m[36mArt Update (7.3ms)[0m  [1m[33mUPDATE "arts" SET "description" = $1, "updated_at" = $2 WHERE "arts"."id" = $3[0m  [["description", "A devistating style of street basketball strikes. Developed on a whim with little to no training, the style is gladly forgotten by the masses."], ["updated_at", "2019-11-08 19:36:04.470382"], ["id", 39]]
+  ↳ app/controllers/arts_controller.rb:46:in `update'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/arts_controller.rb:46:in `update'
+Completed 200 OK in 14ms (Views: 0.4ms | ActiveRecord: 8.2ms | Allocations: 3068)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 11:25:34 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (6.7ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 76ms (Views: 66.1ms | ActiveRecord: 6.7ms | Allocations: 7875)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 11:30:10 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.7ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 44ms (Views: 35.0ms | ActiveRecord: 7.2ms | Allocations: 14179)
+
+
+Started GET "/arts/32" for ::1 at 2019-11-11 11:30:15 -0500
+Processing by ArtsController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mArt Load (0.5ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:68:in `set_art'
+  [1m[36mCACHE Art Load (0.0ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:11:in `show'
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.9ms | Allocations: 1691)
+
+
+Started GET "/arts/24" for ::1 at 2019-11-11 11:30:27 -0500
+Processing by ArtsController#show as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mArt Load (0.5ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:68:in `set_art'
+  [1m[36mCACHE Art Load (0.0ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:11:in `show'
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.5ms | Allocations: 1253)
+
+

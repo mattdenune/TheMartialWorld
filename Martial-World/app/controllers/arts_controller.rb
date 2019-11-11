@@ -1,4 +1,6 @@
 class ArtsController < ApplicationController
+    before_action :set_art, only: [:show, :update, :destroy]
+
     def index
         @arts = Art.all  
         render json: { message: "ok", arts: @arts }
@@ -43,6 +45,11 @@ class ArtsController < ApplicationController
     def update
         if @art.update(art_params)
             render json: {
+                message: "ok",
+                art: @art
+            }
+        else
+            render json: {
                 message: @art.errors
             }, status: 500
         end
@@ -58,7 +65,7 @@ class ArtsController < ApplicationController
     private
 
     def set_art
-        @art = Art.fing(params[:id])
+        @art = Art.find(params[:id])
     end
 
     def art_params
