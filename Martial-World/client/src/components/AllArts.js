@@ -13,10 +13,11 @@ class AllArts extends Component {
         return this.props.arts.map(art =>
             <div key={art.id}>
                 <h1>{art.name}</h1>
-                <h4></h4>
+                <p><strong>Country of Origin:</strong> {art.origin}</p>
                 <p><strong>Founded by:</strong> {art.founder}</p>
-                <Link to={`/arts/${art.id}`} onClick={() => this.props.setArt(art)}>Show Martial Art</Link>
                 <img alt={art.founder} src={art.founder_img} style={{width: 200}}/>
+                <br />
+                <Link to={`/arts/${art.id}`} onClick={() => this.props.setArt(art)}>Show Martial Art</Link>
                 <hr />
             </div>
         )

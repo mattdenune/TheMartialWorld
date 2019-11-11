@@ -826,3 +826,205 @@ Processing by ArtsController#index as HTML
 Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.4ms | Allocations: 7873)
 
 
+Started GET "/arts" for ::1 at 2019-11-11 15:33:58 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.4ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.4ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:36:34 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.4ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.4ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:37:00 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.4ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.4ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:44:02 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (1.2ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 1.2ms | Allocations: 7873)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:44:25 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.7ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.7ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:44:28 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.7ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.7ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:44:33 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.6ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.6ms | Allocations: 7799)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:46:24 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.5ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.5ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:48:15 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.4ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.4ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:48:27 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.4ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.4ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:48:34 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.5ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.5ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:48:36 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.5ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.5ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:48:41 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.5ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.5ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:48:44 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.6ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.6ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:48:47 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.7ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.7ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:48:51 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (6.4ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 19ms (Views: 12.2ms | ActiveRecord: 6.4ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:48:52 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.6ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.6ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:49:02 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.5ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.5ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:49:29 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.5ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.5ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:49:51 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.4ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.4ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:49:53 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.8ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.8ms | Allocations: 7799)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:49:58 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.5ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.5ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:50:03 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.5ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.5ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:50:08 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.5ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.5ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:51:55 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.4ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.4ms | Allocations: 7796)
+
+
+Started GET "/arts" for ::1 at 2019-11-11 15:58:45 -0500
+Processing by ArtsController#index as HTML
+  [1m[36mArt Load (0.8ms)[0m  [1m[34mSELECT "arts".* FROM "arts"[0m
+  ↳ app/controllers/arts_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.8ms | Allocations: 7873)
+
+
+Started GET "/arts/36" for ::1 at 2019-11-11 15:58:47 -0500
+Processing by ArtsController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mArt Load (0.3ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:68:in `set_art'
+  [1m[36mCACHE Art Load (0.0ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:11:in `show'
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 2840)
+
+
+Started GET "/arts/8" for ::1 at 2019-11-11 15:59:05 -0500
+Processing by ArtsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mArt Load (0.2ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:68:in `set_art'
+  [1m[36mCACHE Art Load (0.0ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:11:in `show'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 1231)
+
+

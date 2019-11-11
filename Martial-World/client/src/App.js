@@ -3,14 +3,15 @@ import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import './App.css';
 import axios from 'axios';
 import AllArts from './components/AllArts';
-import ShowArt from './components/ShowArts';
+import ShowArt from './components/ShowArt';
+import ArtForm from './components/ArtForm';
 
 class App extends Component {
   constructor(props){
     super()
     this.state={
       arts: [],
-      currentArts: {},
+      currentArt: {},
       artsLoaded: false
     };
   }
@@ -52,7 +53,7 @@ class App extends Component {
                   getAllArts={this.getAllArts}
                   arts={this.state.arts}
                   artsLoaded={this.state.artsLoaded}
-                  setArts={this.setArt}
+                  setArt={this.setArt}
                   />
               )}
             />
@@ -66,7 +67,24 @@ class App extends Component {
               {...props}
               />}
             />
-            
+            <Route
+              exact
+              path='/arts/new'
+              render={(props)=> <ArtForm
+                {...props}
+                setArt={this.setArt}
+              />}
+            />
+            <Route
+              exact
+              path='/arts/:id/edit'
+                render={(props)=> <ArtForm
+                {...props}
+                setArt={this.setArt}
+                currentArt={this.state.currentArt}
+                isUpdateForm={true}
+                />}
+            />
           </Switch>
         </div>
       </Router>
