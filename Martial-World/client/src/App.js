@@ -34,7 +34,21 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-
+          <Link exact='true' to='/'>The Martial World</Link>
+          <Switch>
+            <Route
+              exact
+              path='/'
+              render={() => (
+                <AllArts
+                  getAllArts={this.getAllArts}
+                  arts={this.state.arts}
+                  artsLoaded={this.state.artsLoaded}
+                  setArts={this.setArt}
+                  />
+              )}
+            />
+          </Switch>
         </div>
       </Router>
     );
