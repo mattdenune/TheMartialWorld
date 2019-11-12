@@ -61,20 +61,49 @@ class ArtForm extends Component {
             <div>
                 <h2> {this.props.isUpdateForm ? "Update Martial Art" : "Create a Martial Art"} </h2>
                 <form onSubmit={this.onSubmit}>
-                    <label>Photo url:</label>
-                    <input
-                        type='text'
-                        name='photo'
-                        value={this.state.founder_img}
-                        onChange={this.handleFormChange} />
-                        <br/>
                     <label>Martial Art Name:</label>
                     <input
-                        tyle="text"
+                        type="text"
                         name="name"
                         value={this.state.name}
                         onChange={this.handleFormChange} />
                         <br />
+                    <label>Country of Origin:</label>
+                    <input
+                        type="text"
+                        name="origin"
+                        value={this.state.origin}
+                        onChange={this.handleFormChange} />
+                        <br />
+                    <label>Founder:</label>
+                    <input
+                        type="text"
+                        name="founder"
+                        value={this.state.founder}
+                        onChange={this.handleFormChange} />
+                        <br />
+                    <label>Photo of Founder:</label>
+                    <input
+                        type='text'
+                        name='founder_img'
+                        value={this.state.founder_img}
+                        onChange={this.handleFormChange} />
+                        <br/>
+                    <label>Style of Art:</label>
+                    <input
+                        type='text'
+                        name='style'
+                        value={this.state.style}
+                        onChange={this.handleFormChange} />
+                        <br/>
+                    <label>Description of art:</label>
+                    <input
+                        type='text'
+                        name='description'
+                        value={this.state.description}
+                        onChange={this.handleFormChange} />
+                        <br/>
+                    
                         <button>Submit</button>
                 </form>
             </div>

@@ -25,8 +25,11 @@ class ShowArt extends Component {
         return(
             <div>
                 <h1>{art.name}</h1>
+                <p><strong>Country of Origin:</strong> {art.origin}</p> 
+                <p><strong>Style:</strong> {art.style}</p> 
                 <p><strong>Founded by:</strong> {art.founder}</p> 
                 <img alt={art.founder} src={art.founder_img} style={{ width: 200 }} />
+                <p>{art.description}</p>
                 <button onClick={this.handleDelete}>Delete</button>
             </div>
         )

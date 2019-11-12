@@ -5,6 +5,7 @@ import axios from 'axios';
 import AllArts from './components/AllArts';
 import ShowArt from './components/ShowArt';
 import ArtForm from './components/ArtForm';
+import Header from './components/Header';
 
 class App extends Component {
   constructor(props){
@@ -43,30 +44,9 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Link exact='true' to='/'>The Martial World</Link>
+          <Header />
+          {/* <Link exact='true' to='/'>The Martial World</Link> */}
           <Switch>
-            <Route
-              exact
-              path='/'
-              render={() => (
-                <AllArts
-                  getAllArts={this.getAllArts}
-                  arts={this.state.arts}
-                  artsLoaded={this.state.artsLoaded}
-                  setArt={this.setArt}
-                  />
-              )}
-            />
-            <Route
-              exact
-              path='/arts/:id'
-              render={(props) => <ShowArt
-              currentArt={this.state.currentArt}
-              setArt={this.setArt}
-              handleDeleteArt={this.handleDeleteArt}
-              {...props}
-              />}
-            />
             <Route
               exact
               path='/arts/new'
@@ -84,6 +64,28 @@ class App extends Component {
                 currentArt={this.state.currentArt}
                 isUpdateForm={true}
                 />}
+            />
+            <Route
+              exact
+              path='/arts/:id'
+              render={(props) => <ShowArt
+              currentArt={this.state.currentArt}
+              setArt={this.setArt}
+              handleDeleteArt={this.handleDeleteArt}
+              {...props}
+              />}
+            />
+            <Route
+              exact
+              path='/'
+              render={() => (
+                <AllArts
+                  getAllArts={this.getAllArts}
+                  arts={this.state.arts}
+                  artsLoaded={this.state.artsLoaded}
+                  setArt={this.setArt}
+                  />
+              )}
             />
           </Switch>
         </div>

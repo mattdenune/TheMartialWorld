@@ -14,9 +14,11 @@ class AllArts extends Component {
             <div key={art.id}>
                 <h1>{art.name}</h1>
                 <p><strong>Country of Origin:</strong> {art.origin}</p>
+                <p><strong>Style:</strong> {art.style}</p>
                 <p><strong>Founded by:</strong> {art.founder}</p>
                 <img alt={art.founder} src={art.founder_img} style={{width: 200}}/>
                 <br />
+                <p>{art.description}</p>
                 <Link to={`/arts/${art.id}`} onClick={() => this.props.setArt(art)}>Show Martial Art</Link>
                 <hr />
             </div>
