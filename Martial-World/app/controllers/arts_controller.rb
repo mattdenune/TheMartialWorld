@@ -69,7 +69,7 @@ class ArtsController < ApplicationController
     end
 
     def art_params
-        params.permit(:name, :origin, :founder, :founder_img, :style, :description)
+        params.permit(:name, :origin, :founder, :founder_img, :style, :description, :images)
     end
 
 end

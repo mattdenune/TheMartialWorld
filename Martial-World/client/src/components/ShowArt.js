@@ -12,6 +12,7 @@ class ShowArt extends Component {
             const artData = await axios.get('http://localhost:3000/arts/' + idParams)
             this.props.setArt(artData.data.art)
         }
+        
     }
 
     handleDelete = async () => {
@@ -22,15 +23,28 @@ class ShowArt extends Component {
 
     render() {
         const art = this.props.currentArt
+        console.log(art.images)
         return(
             <div>
-                <h1>{art.name}</h1>
-                <p><strong>Country of Origin:</strong> {art.origin}</p> 
-                <p><strong>Style:</strong> {art.style}</p> 
-                <p><strong>Founded by:</strong> {art.founder}</p> 
-                <img alt={art.founder} src={art.founder_img} style={{ width: 200 }} />
-                <p>{art.description}</p>
-                <button onClick={this.handleDelete}>Delete</button>
+                <div>
+                    <h1>{art.name}</h1>
+                    <p><strong>Country of Origin:</strong> {art.origin}</p> 
+                    <p><strong>Style:</strong> {art.style}</p> 
+                    <p><strong>Founded by:</strong> {art.founder}</p> 
+                    <img alt={art.founder} src={art.founder_img} style={{ width: 200 }} />
+                    <p>{art.description}</p>
+                    {/* <img alt={art.founder} src={art.images} style={{ width: 200 }} /> */}
+                </div>
+                <div>
+                    {
+                    art.images && art.images.map((image, index) => (
+                        <img key={index} src={image} style={{ width: 200 }}/>
+                    ))    
+                    }
+                </div>
+                <div>
+                    <button onClick={this.handleDelete}>Delete</button>
+                </div>
             </div>
         )
     }
