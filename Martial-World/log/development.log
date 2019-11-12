@@ -2873,3 +2873,14 @@ Processing by ArtsController#show as HTML
 Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 1307)
 
 
+Started GET "/arts/1" for ::1 at 2019-11-12 15:58:06 -0500
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArtsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArt Load (3.3ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:68:in `set_art'
+  [1m[36mCACHE Art Load (0.0ms)[0m  [1m[34mSELECT "arts".* FROM "arts" WHERE "arts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/arts_controller.rb:11:in `show'
+Completed 200 OK in 51ms (Views: 0.7ms | ActiveRecord: 12.3ms | Allocations: 8901)
+
+
