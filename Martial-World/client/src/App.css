@@ -1,8 +1,18 @@
+/* * {
+  border: 1px solid red;
+} */
+
+@import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
+
+
+
 .App {
   text-align: center;
+  background: black;
+  color: white;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
 }
 
@@ -15,12 +25,276 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
+} */
+/* 
 .App-link {
   color: #09d3ac;
+} */
+
+.header {
+  background-color: #09d3ac;
 }
 
-.Header {
-  background-color: #09d3ac;
+.footer {
+  /* position: absolute; */
+}
+
+.main-art-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.main-description-box {
+  width: 60%;
+}
+
+.main-art-box h1,
+.single-art-box h1 {
+  font-size: 50px;
+  font-weight: 200;
+  font-style: italic;
+  color: #fff;
+  padding: 4rem 6rem 4rem;
+  border: 0.4rem solid #fff;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  animation: flicker 1.5s infinite alternate;
+}
+
+.main-art-box h1 ::-moz-selection {
+  background-color: #08f;
+  color: #f40;
+}
+
+.main-art-box h1::selection {
+  background-color: #08f;
+  color: #f40;
+}
+
+.main-art-box h1:focus {
+  outline: none;
+}
+
+/* Animate neon flicker */
+@keyframes flicker {
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+    text-shadow:
+      -0.2rem -0.2rem 1rem #fff,
+      0.2rem 0.2rem 1rem #fff,
+      0 0 2rem #f40,
+      0 0 4rem #f40,
+      0 0 6rem #f40,
+      0 0 8rem #f40,
+      0 0 10rem #f40;
+
+    box-shadow:
+      0 0 .5rem #fff,
+      inset 0 0 .5rem #fff,
+      0 0 2rem #08f,
+      inset 0 0 2rem #08f,
+      0 0 4rem #08f,
+      inset 0 0 4rem #08f;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+    box-shadow: none;
+  }
+}
+
+.main-art-box img,
+.founder-img {
+  font-size: 50px;
+  font-weight: 200;
+  color: #fff;
+  padding: 1.2rem 1.2rem 1.2rem;
+  border: 0.4rem solid #fff;
+  border-radius: 2rem;
+  animation: flicker2 4s infinite alternate;
+}
+
+.main-art-box img::-moz-selection {
+  background-color: #83f52c;
+}
+
+.main-art-box img::selection {
+  background-color: #83f52c;
+}
+
+.main-art-box img:focus {
+  outline: none;
+}
+
+/* Animate neon flicker */
+@keyframes flicker2 {
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+
+    box-shadow:
+      0 0 .5rem #fff,
+      inset 0 0 .5rem #fff,
+      0 0 2rem #83f52c,
+      inset 0 0 2rem #83f52c,
+      0 0 4rem #83f52c,
+      inset 0 0 4rem #83f52c;
+  }
+
+  20%,
+  24%,
+  55% {
+    box-shadow: none;
+  }
+}
+
+
+.main-description-box,
+.single-description-box {
+  font-size: 20px;
+  font-weight: 250;
+  color: #fff;
+  padding: 1.2rem 1.2rem 1.2rem;
+  border: 0.4rem solid #fff;
+  border-radius: 2rem;
+  animation: flicker3 5s infinite alternate;
+}
+
+.main-description-box::-moz-selection {
+  background-color: #ff0099;
+}
+
+.main-description-box::selection {
+  background-color: #ff0099;
+}
+
+.main-description-box:focus {
+  outline: none;
+}
+
+/* Animate neon flicker */
+@keyframes flicker3 {
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+    text-shadow:
+      -0.2rem -0.2rem 1rem #fff,
+      0.2rem 0.2rem 1rem #fff,
+      0 0 2rem var(--neon-text-color),
+      0 0 4rem var(--neon-text-color),
+      0 0 6rem var(--neon-text-color),
+      0 0 8rem var(--neon-text-color),
+      0 0 10rem var(--neon-text-color);
+
+    box-shadow:
+      0 0 .5rem #fff,
+      inset 0 0 .5rem #fff,
+      0 0 2rem #ff0099,
+      inset 0 0 2rem #ff0099,
+      0 0 4rem #ff0099,
+      inset 0 0 4rem #ff0099;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+    box-shadow: none;
+  }
+}
+
+.text {
+  font-size: 20px;
+  text-shadow:
+    -0.2rem -0.2rem 1rem #fff,
+    0.2rem 0.2rem 1rem #fff,
+    0 0 2rem #ff6600,
+    0 0 4rem #ff6600,
+    0 0 6rem #ff6600,
+    0 0 8rem #ff6600,
+    0 0 10rem #ff6600;
+}
+
+.single-art-box {
+  display: flex;
+
+}
+
+.single-images-box {
+  font-size: 50px;
+  font-weight: 200;
+  color: #fff;
+  padding: 1.2rem 1.2rem 1.2rem;
+  border: 0.4rem solid #fff;
+  border-radius: 2rem;
+  animation: flicker4 4.5s infinite alternate;
+}
+
+.single-images-box::-moz-selection {
+  background-color: #6e0dd0;
+}
+
+.single-images-box::selection {
+  background-color: #6e0dd0;
+}
+
+.single-images-box:focus {
+  outline: none;
+}
+
+/* Animate neon flicker */
+@keyframes flicker4 {
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+
+    box-shadow:
+      0 0 .5rem #fff,
+      inset 0 0 .5rem #fff,
+      0 0 2rem #6e0dd0,
+      inset 0 0 2rem #6e0dd0,
+      0 0 4rem #6e0dd0,
+      inset 0 0 4rem #6e0dd0;
+  }
+
+  20%,
+  24%,
+  55% {
+    box-shadow: none;
+  }
 }

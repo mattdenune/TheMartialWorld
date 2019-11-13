@@ -6,7 +6,7 @@ class Header extends Component {
 
     render() {
         return (
-            <div className="Header">
+            <div className="header">
                 <Link exact='true' to='/'>Return to list</Link>
             </div>
         )

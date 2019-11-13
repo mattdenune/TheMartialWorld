@@ -25,26 +25,28 @@ class ShowArt extends Component {
         const art = this.props.currentArt
         console.log(art.images)
         return(
-            <div>
+            <div className='single-art-box'>
                 <div>
                     <h1>{art.name}</h1>
-                    <p><strong>Country of Origin:</strong> {art.origin}</p> 
-                    <p><strong>Style:</strong> {art.style}</p> 
-                    <p><strong>Founded by:</strong> {art.founder}</p> 
-                    <img alt={art.founder} src={art.founder_img} style={{ width: 200 }} />
-                    <p>{art.description}</p>
+                    <p className='text'><strong>Country of Origin:</strong> {art.origin}</p> 
+                    <p className='text'><strong>Style:</strong> {art.style}</p> 
+                    <p className='text'><strong>Founded by:</strong> {art.founder}</p> 
+                    <img className='founder-img' alt={art.founder} src={art.founder_img} style={{ width: 200 }} />
+                    <p className='single-description-box'>{art.description}</p>
                     {/* <img alt={art.founder} src={art.images} style={{ width: 200 }} /> */}
+
+                    <button onClick={this.handleDelete}>Delete</button>
                 </div>
-                <div>
+                <div className='single-images-box'>
                     {
                     art.images && art.images.map((image, index) => (
                         <img key={index} src={image} style={{ width: 200 }}/>
                     ))    
                     }
                 </div>
-                <div>
+                {/* <div>
                     <button onClick={this.handleDelete}>Delete</button>
-                </div>
+                </div> */}
             </div>
         )
     }

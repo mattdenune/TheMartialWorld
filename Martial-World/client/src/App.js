@@ -6,6 +6,7 @@ import AllArts from './components/AllArts';
 import ShowArt from './components/ShowArt';
 import ArtForm from './components/ArtForm';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 class App extends Component {
   constructor(props){
@@ -88,8 +89,10 @@ class App extends Component {
               )}
             />
           </Switch>
+          <Footer />
         </div>
       </Router>
+      
     );
   }
 }

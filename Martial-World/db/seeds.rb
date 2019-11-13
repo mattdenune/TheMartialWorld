@@ -291,7 +291,7 @@ Art.create([{
     It is characterized by fluid, dynamic foot movement called 'pum balgi' or Stepping-on-Triangles. Taekkyon is concerned with applying both the hands and feet at the same time to unbalance, trip, or throw the opponent. Hands and feet are always used together. Taekkyon has many leg and whole-body techniques with fully integrated armwork. Although Taekkyon primarily utilizes kicking, punching, and arm strikes thrown from a mobile stance and does not provide a framework for groundfighting, it does incorporate a variety of different throws, takedowns, and grappling techniques to complement its striking focus.
 
     In the twentieth century, Taekkyon has come to be seen as a living link to Korea's past. As such, it has provided historical references for modern Korean martial arts and is often considered as the oldest martial discipline of Korea.",
-    images: []
+    images: ["https://ich.unesco.org/img/photo/thumb/07567-BIG.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSiS2H4hh47SEOpkYTeOYZZkFHOq8DJnORRqut_dQ8jfcUpJLPl", "https://upload.wikimedia.org/wikipedia/commons/8/8c/Taekkyeon-taekkyon-01.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQgjm8OJyG9hjdd66AoNvOZgoE1hjFZtj7WnPQRHyNzcTM1OY_T", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9J6P39L837pVbTgyjUj5ouhtokVDzZ2aTLwSJuIJ-bmOkOipT", "https://d3h30waly5w5yx.cloudfront.net/images/tour/pictures/taekkyeon-training-in-insa-dong-3.jpg", "https://martialartsblogaroundtheworld.files.wordpress.com/2012/04/taekkyeon1.jpg", "https://live.staticflickr.com/7278/7457314160_6c0224783e_c.jpg"]
     },
     {
     name: "Hapkido",
@@ -304,7 +304,7 @@ Art.create([{
     Hapkido employs both long-range and close-range fighting techniques, utilizing jumping kicks and percussive hand strikes at longer ranges, and pressure point strikes, joint locks, and throws at closer fighting distances. Hapkido emphasizes circular motion, redirection of force, and control of the opponent. Practitioners seek to gain advantage over their opponents through footwork and body positioning to incorporate the use of leverage, avoiding the use of brute strength against brute strength.
 
     The art was adapted from Daitō-ryū Aiki-jūjutsu as it was taught by Choi Yong-Sool when he returned to Korea after World War II after having lived in Japan for 30 years. This system was later combined by Choi´s disciples with kicking and striking techniques of indigenous and contemporary arts such as Taekkyon, and Tang Soo Do; as well as various throwing techniques and ground fighting from Japanese judo.",
-    images: []
+    images: ["https://trondheimactivities.files.wordpress.com/2017/02/hapkido-4.jpg?w=583", "https://i.pinimg.com/originals/80/5d/ce/805dce794c650c258d1ba10004f58da6.jpg", "https://i.ytimg.com/vi/HxcC7IlccYQ/hqdefault.jpg", "https://i.pinimg.com/originals/b0/1f/3e/b01f3ed18c66819df71d240517259300.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ1raZePr8ISj0Q04nWksbNyjbxHKapftbHc2zuE4QgG4_YGp9k", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmjbglxFWPypnych67nUdtq-_lyZ4tCL6hlwIRcsQ8ZPceynQt"]
     },
     {
     name: "Muay Thai",
@@ -313,7 +313,7 @@ Art.create([{
     founder_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZk9mPprjdXEoY13Qo3m-wYpZL8K5qU30VE7stmqfmBOcDPNiA",
     style: "Striking",
     description: "Muay Thai or literally Thai boxing is a combat sport of Thailand that uses stand-up striking along with various clinching techniques. This discipline is known as the 'art of eight limbs' as it is characterized by the combined use of fists, elbows, knees, and shins. Muay Thai became widespread internationally in the late 20th to 21st century, when westernized practitioners from Thailand began competing in kickboxing, mixed rules matches, as well as matches under Muay Thai rules around the world. The professional league is governed by The Professional Boxing Association of Thailand (P.A.T) sanctioned by The Sports Authority of Thailand (SAT), and World Professional Muaythai Federation (WMF) overseas.",
-    images: []
+    images: ["https://cdn.evolve-vacation.com/wp-content/uploads/2016/06/noom-kick.jpg", "https://upload.wikimedia.org/wikipedia/commons/4/45/Thairoundkick.jpg", "https://image.makewebeasy.net/makeweb/0/W7lTZBRXV/BoxingThapae/1_TKT02.jpg", "http://www.muaythaicitizen.com/wp-content/uploads/2017/10/blood.jpg", "http://bangkokexcursions.com/systemimages/thai-boxing-bangkok.jpg", "https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/blogs/13824/images/MKpOqDJXTmCZEyumPIBc_featureelbow.jpg", "https://pbs.twimg.com/media/DOb544NXUAAJJG8.jpg", "https://s3.amazonaws.com/muaythaiwebsite/wp-content/uploads/2015/11/13152636/19.jpg", "http://wannabeactive.com/wp-content/uploads/2019/06/60959116_2768487919859288_6634304019261030400_n.jpg"]
     },
     {
     name: "Karate",
@@ -322,7 +322,7 @@ Art.create([{
     founder_img: "https://elitekarateblog.files.wordpress.com/2017/04/funakoshigichin-e1494027651108.jpg?w=450",
     style: "Striking",
     description: "Karate is a martial art developed in the Ryukyu Kingdom. It developed from the indigenous Ryukyuan martial arts under the influence of Kung Fu, particularly Fujian White Crane. Karate is now predominantly a striking art using punching, kicking, knee strikes, elbow strikes and open-hand techniques such as knife-hands, spear-hands and palm-heel strikes. Historically, and in some modern styles, grappling, throws, joint locks, restraints and vital-point strikes are also taught. A karate practitioner is called a karateka.",
-    images: []
+    images: ["https://5.imimg.com/data5/YR/MX/GLADMIN-48631725/traditional-karate-500x500.png", "https://pbs.twimg.com/media/DoZzQhNW0AEMa_m.jpg", "http://4.bp.blogspot.com/_RsbfeX5C6Dc/TJW2lS1zAhI/AAAAAAAADE0/cFErDukcxgU/s1600/Andre+Bertel+%26+Lyall+Stone.+Yakusoku+Kumite.+2010..JPG", "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/1-mas-oyama-the-phillip-harrington-collection.jpg", "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/4-mas-oyama-the-phillip-harrington-collection.jpg", "https://1.bp.blogspot.com/-YN08aTLUGSg/V1XC68aTglI/AAAAAAAAAB8/TxfAcy7y2EIhFE-ugcvCf2vQW4G_08COwCLcB/s640/funakoshitekki.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Funakoshi_Makiwara.jpg/220px-Funakoshi_Makiwara.jpg", "https://media1.popsugar-assets.com/files/thumbor/cqkB8X9d46cmh7U6h_CYqLK456o/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2019/02/04/734/n/1922283/65c6ff955c586a478f43c3.03158655_/i/Karate-Kid-Returning-Theaters-2019.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTmjdD7_5Sv3xC5npc24jGUXgZ_xAtq_m1xOnFiXWTUtQCXSHT"]
     },
     {
     name: "Aikido",
@@ -337,7 +337,7 @@ Art.create([{
     Aikido derives mainly from the martial art of Daitō-ryū Aiki-jūjutsu, but began to diverge from it in the late 1920s, partly due to Ueshiba's involvement with the Ōmoto-kyō religion. Ueshiba's early students' documents bear the term aiki-jūjutsu.
 
     Ueshiba's senior students have different approaches to aikido, depending partly on when they studied with him. Today, aikido is found all over the world in a number of styles, with broad ranges of interpretation and emphasis. However, they all share techniques formulated by Ueshiba and most have concern for the well-being of the attacker.",
-    images: []
+    images: ["https://i.ytimg.com/vi/LtKppTXmR-I/maxresdefault.jpg", "https://kmperformexpress.com/wp-content/uploads/2019/02/Screenshot-101-900x662.png", "https://www.filmsforaction.org/img/extra-large-wide/9f5211ee-b029-4f7c-b791-3e7da489f178.jpg", "https://i.redd.it/kt1wf94rgi601.jpg", "https://edu.glogster.com/proxy?url=https://1789a7.medialib.edu.glogster.com/Z4bFQ9xQDm4jkv5oV1K8/media/5e/5ed67a1832365b604a8d66aad85ab0c56efd9c6c/bio-nocquet-ueshiba-ikkyo.jpg", "https://www.aikidosangenkai.org/blog/wp-content/media/morihei-ueshiba-noma.jpg", "https://m.media-amazon.com/images/M/MV5BMTMyNjE1NTg4MV5BMl5BanBnXkFtZTcwNTAwMTkwMw@@._V1_SY1000_CR0,0,1400,1000_AL_.jpg"]
     },
     {
     name: "Judo",
@@ -348,7 +348,7 @@ Art.create([{
     description: "Judo was originally created in 1882 by Jigoro Kano as a physical, mental, and moral pedagogy in Japan. It is generally categorized as a modern martial art, which later evolved into a combat and Olympic sport. Its most prominent feature is its competitive element, where the objective is to either throw or take down an opponent to the ground, immobilize or otherwise subdue an opponent with a pin, or force an opponent to submit with a joint lock or a choke. Strikes and thrusts by hands and feet as well as weapons defences are a part of judo, but only in pre-arranged forms and are not allowed in judo competition or free practice. A judo practitioner is called a judoka.
 
     The philosophy and subsequent pedagogy developed for judo became the model for other modern Japanese martial arts that developed from koryū (traditional schools). Judo also spawned a number of derivative martial arts across the world, such as Brazilian jiu-jitsu, Krav Maga and Sambo.",
-    images: []
+    images: ["https://i.ytimg.com/vi/q8poKakC-zM/maxresdefault.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_e5yrPUNF6tyyZzXyDYZwF9f2GnltW4Jhb2IscqnbGJUovGkB", "https://images1.persgroep.net/rcs/meqoqf-SSz3H1SBqyU4wUeUKF4U/diocontent/155127798/_fitwidth/763?appId=93a17a8fd81db0de025c8abd1cca1279&quality=0.8", "https://upload.wikimedia.org/wikipedia/commons/c/ce/Jigoro_Kano_and_Kyuzo_Mifune_%28restoration%29.jpg", "https://pbs.twimg.com/media/DPUObgnWAAEH3lW.jpg", "https://www.researchgate.net/profile/Carl_De_Cree/publication/277665810/figure/fig5/AS:613507846373447@1523283077737/22-A-rare-picture-of-Mifune-Kyuzo-sanchuanjiuzang-1883-1965-Kodokan-10-th-dan-and-his-deshi.png", "https://i2.wp.com/thegentleartist.com/wp-content/uploads/2012/08/judo-kitten.jpg?resize=500%2C320", "https://celebritypictures.wiki/images/1212115/1212115_13.jpeg"]
     },
     {
     name: "Capoeira",
@@ -359,7 +359,7 @@ Art.create([{
     description: "Capoeira is an Afro-Brazilian martial art that combines elements of dance, acrobatics, and music. It was developed by enslaved Africans in Brazil at the beginning of the 16th century. It is known for its acrobatic and complex maneuvers, often involving hands on the ground and inverted kicks. Emphasizes flowing movements rather than fixed stances, the ginga, a rocking step, is usually the focal point of the technique. The most widely accepted origin of the word capoeira comes from the Tupi words ka'a 'forest' paũ 'round', referring to the areas of low vegetation in the Brazilian interior where fugitive slaves would hide. A practitioner of the art is called a capoeirista.
 
     On 26 November 2014, capoeira was granted a special protected status as intangible cultural heritage by UNESCO.",
-    images: []
+    images: ["https://i.ytimg.com/vi/6H0D8VaIli0/maxresdefault.jpg", "https://img.theculturetrip.com/768x432/wp-content/uploads/2016/08/rsz_8271618259_f0a3c3fbf5_k.jpg", "https://img.theculturetrip.com/wp-content/uploads/2017/02/6182528698_a0ecee6ce1_b.jpg", "https://makassar.terkini.id/aset/images/sites/2/2018/07/Capoeira.jpg", "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/11/23/09/gettyimages-991912978.jpg", "https://ak0.picdn.net/shutterstock/videos/31265590/thumb/4.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSG5U-SgdL9FqgdrZCd86HSiX8drV0tkfrCesFc3erz4KniThb4"]
     },
     {
     name: "Laamb Wrestling",
@@ -368,7 +368,7 @@ Art.create([{
     founder_img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Dakar-Marabout.jpg/1280px-Dakar-Marabout.jpg",
     style: "Wrestling",
     description: "Senegalese wrestling called 'Laamb' or Njom in Serer originated from the Serer Kingdom of Sine. It was a preparatory exercise for war among the warrior classes. That style of wrestling (a brutal and violent form) is totally different from the sport wrestling enjoyed by all Senegambian ethnic groups today, nevertheless the ancient rituals are still visible in the sport version. Among the Serers, wrestling is classified into different techniques and each technique takes several years to master. Children start young trying to master the basics before moving on to the more advance techniques like the 'mbapatte', which is one of the oldest techniques and totally different from modern wrestling. Yékini (real name: 'Yakhya Diop'), who is a professional wrestler in Senegal is one of the top wrestlers proficient in the 'mbapatt' technique. Lamba and sabar (musical instruments) are used as music accompaniments in wrestling matches as well as in circumcision dances and royal festivals. Serer wrestling crosses ethnic boundaries and is a favourite pastime for Senegalese and Gambians alike.",
-    images: []
+    images: ["https://i.ytimg.com/vi/IBN396tjpHc/hqdefault.jpg", "https://static01.nyt.com/images/2012/05/25/sports/SENEGAL1/SENEGAL1-jumbo.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT9UAIWBoDB183uCCd4RLjv59ouIe3jKIFZgOzvZoDK8y8u-Nah", "https://live.staticflickr.com/8461/8017915250_75ff2b1cf0_c.jpg", "https://i.pinimg.com/originals/e6/5f/18/e65f18eec1748911ebe922beb38418e7.jpg", "https://pbs.twimg.com/media/Dj6fQkqX0AEf9fX.jpg", "https://thebodedit.com/wp-content/uploads/2018/05/Gris-Gris-Fighters-The-Bod-Edit-8.jpg"]
     },
     {
     name: "Silambam",
@@ -377,7 +377,7 @@ Art.create([{
     founder_img: "https://upload.wikimedia.org/wikipedia/commons/0/0b/AgasthiyarG.jpg",
     style: "Weapon",
     description: "Silambam is a weapon-based martial art of India, more specifically from Tamilakam (now Tamil Nadu region) in the Indian subcontinent. This ancient fighting style is mentioned in Tamil Sangam literature 400 BCE",
-    images: []
+    images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIxAxX1Apv7lhVmNfUoNnja8JatzsDhGXvzT4IFYpaGQTtAGVM", "http://tnnlu.ac.in/images/gallery/2018/Cultural%20Commitee/Silambam/sil_08.jpg", "https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2017/10/05/Pictures/assignment-name-in-brief_703c8782-a9c0-11e7-8fa9-3a95f17ae4d1.JPG", "http://trujetter.com/wp-content/uploads/2017/03/a-woman-fending-attackers.jpg", "https://www.martialartsmasters.org/wp-content/uploads/2016/06/hqdefault-645.jpg"]
     },
     {
     name: "Kalaripayattu",
@@ -386,8 +386,17 @@ Art.create([{
     founder_img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flh6.googleusercontent.com%2F-yojkTpPhn8s%2FUSyzFTCsW5I%2FAAAAAAAAABk%2FbjO1af6S3dA%2Fs800%2FKalaripayattu.jpg&f=1&nofb=1",
     style: "Hybrid",
     description: "Kalaripayattu (sometimes shortened as Kalari) is an Indian martial art and fighting system that originated in Kerala. There is also a mention about Tulunadan Kalari in the Northern ballads of chekavar in Malabar. In Kerala, the warriors belonged to all castes. It is considered by some to be the oldest martial art still in existence, with its origin dating back to at least the 6th century BCE. Because of this, Kalaripayattu has been called The Mother Of All Martial Arts.",
-    images: []
-    }
+    images: ["https://mediaindia.eu/wp-content/uploads/2018/03/kala1.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuiYyqnvaishhvA-6VULa64XNyR2EpJd7pqXsJ7LhrztmZRtdf", "https://cdn.telanganatoday.com/wp-content/uploads/2018/05/kalripayattu.jpg", "http://www.enskalari.org.in/wp-content/themes/ens/images/flash.jpg", "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201703/kalari1-story_647_030217102739.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIfxtST6mXf6heLLIWUivVxug03Hlb1JOBGb7_MffQ6XzcQoXU"]
+    },
+    {
+    name: "Shaq-fu",
+    origin: "United States",
+    founder: "Shaquille O'Neal",
+    founder_img: "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/ShaqFu_logo.png/220px-ShaqFu_logo.png",
+    style: "Hybrid",
+    description: "Created from ill b-ball skillz the art involves a lot of hoopla and malarky. Almost as soon as it was created it was forgotten.",
+    images: ["https://steamcdn-a.akamaihd.net/steam/apps/496040/header.jpg?t=1528450091", "https://cdn.vox-cdn.com/thumbor/MtAZiLLVj8-ft4VuYPBiq4EU2vY=/0x0:1920x1080/1200x800/filters:focal(1476x198:1782x504)/cdn.vox-cdn.com/uploads/chorus_image/image/58711127/Shaq_Fu_Screen_5.0.jpg", "https://www.famefocus.com/wp-content/uploads/2018/02/shaq-1000x600.jpg", "https://cdn.bleacherreport.net/images_root/slides/photos/000/983/492/HumbleShaq_original.jpg?1307012060", "https://cdn1.thecomeback.com/wp-content/uploads/sites/94/2018/04/barkley_shaq-760x447.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQdYMFdM13RbgqiwWAdQnUqNd3Q-OIUxLlMveEBBkg75nGeHcja", "https://img.bleacherreport.net/img/images/photos/001/541/561/shaq-vs-the_big_show_original_crop_north.jpg?1327396689&w=3072&h=2048"]
+}
     
 ])
 
