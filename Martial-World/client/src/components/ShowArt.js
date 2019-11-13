@@ -35,12 +35,12 @@ class ShowArt extends Component {
                     <p className='single-description-box'>{art.description}</p>
                     {/* <img alt={art.founder} src={art.images} style={{ width: 200 }} /> */}
 
-                    <button onClick={this.handleDelete}>Delete</button>
+                    <button className='delete-button' onClick={this.handleDelete}>Delete</button>
                 </div>
-                <div className='single-images-box'>
+                <div id='images-box' className='single-images-box'>
                     {
                     art.images && art.images.map((image, index) => (
-                        <img key={index} src={image} style={{ width: 200 }}/>
+                        <img key={index} src={image} />
                     ))    
                     }
                 </div>

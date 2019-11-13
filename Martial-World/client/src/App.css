@@ -4,6 +4,9 @@
 
 @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
 
+body {
+  background: black;
+}
 
 
 .App {
@@ -12,31 +15,79 @@
   color: white;
 }
 
-/* .App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-/* 
-.App-link {
-  color: #09d3ac;
-} */
-
 .header {
-  background-color: #09d3ac;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  height: 100px;
+
 }
+
+.header-container {
+  background: black;
+  /* height: 60px; */
+  left: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.header h1 {
+  font-size: 20px;
+  font-weight: 200;
+  font-style: italic;
+  color: #fff;
+  padding: 1rem 1rem 1rem;
+  border: 0.2rem solid #fff;
+  border-radius: .9rem;
+  text-transform: uppercase;
+  animation: flicker7 1.9s infinite alternate;
+}
+
+/* Animate neon flicker */
+@keyframes flicker7 {
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+    text-shadow:
+      -0.2rem -0.2rem 1rem #fff,
+      0.2rem 0.2rem 1rem #fff,
+      0 0 2rem #bc13fe,
+      0 0 4rem #bc13fe,
+      0 0 6rem #bc13fe,
+      0 0 8rem #bc13fe,
+      0 0 10rem #bc13fe;
+
+    box-shadow:
+      0 0 .5rem #fff,
+      inset 0 0 .5rem #fff,
+      0 0 2rem #ff0055,
+      inset 0 0 2rem #ff0055,
+      0 0 4rem #ff0055,
+      inset 0 0 4rem #ff0055;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+    box-shadow: none;
+  }
+}
+
 
 .footer {
-  /* position: absolute; */
+  /* position: fixed; */
+  height: 100px;
 }
 
 .main-art-box {
@@ -45,11 +96,26 @@
   justify-content: center;
   align-content: center;
   align-items: center;
-  margin-bottom: 200px;
+  margin-top: 200px;
 }
 
-.main-description-box {
+.main-description-box,
+.single-description-box {
   width: 60%;
+  margin: 25px auto;
+}
+
+.single-art-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.single-art-box h1 {
+  width: 30%;
+  margin: 30px auto;
 }
 
 .main-art-box h1,
@@ -58,25 +124,11 @@
   font-weight: 200;
   font-style: italic;
   color: #fff;
-  padding: 4rem 6rem 4rem;
+  padding: 3rem 4rem 3rem;
   border: 0.4rem solid #fff;
   border-radius: 2rem;
   text-transform: uppercase;
   animation: flicker 1.5s infinite alternate;
-}
-
-.main-art-box h1 ::-moz-selection {
-  background-color: #08f;
-  color: #f40;
-}
-
-.main-art-box h1::selection {
-  background-color: #08f;
-  color: #f40;
-}
-
-.main-art-box h1:focus {
-  outline: none;
 }
 
 /* Animate neon flicker */
@@ -123,21 +175,10 @@
   font-weight: 200;
   color: #fff;
   padding: 1.2rem 1.2rem 1.2rem;
+  margin-top: 20px;
   border: 0.4rem solid #fff;
   border-radius: 2rem;
   animation: flicker2 4s infinite alternate;
-}
-
-.main-art-box img::-moz-selection {
-  background-color: #83f52c;
-}
-
-.main-art-box img::selection {
-  background-color: #83f52c;
-}
-
-.main-art-box img:focus {
-  outline: none;
 }
 
 /* Animate neon flicker */
@@ -205,14 +246,6 @@
   56%,
   100% {
 
-    text-shadow:
-      -0.2rem -0.2rem 1rem #fff,
-      0.2rem 0.2rem 1rem #fff,
-      0 0 2rem var(--neon-text-color),
-      0 0 4rem var(--neon-text-color),
-      0 0 6rem var(--neon-text-color),
-      0 0 8rem var(--neon-text-color),
-      0 0 10rem var(--neon-text-color);
 
     box-shadow:
       0 0 .5rem #fff,
@@ -232,6 +265,7 @@
 }
 
 .text {
+  margin: 10px;
   font-size: 20px;
   text-shadow:
     -0.2rem -0.2rem 1rem #fff,
@@ -243,31 +277,72 @@
     0 0 10rem #ff6600;
 }
 
-.single-art-box {
-  display: flex;
-
+.text-art {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  text-shadow:
+    -0.2rem -0.2rem 1rem #fff,
+    0.2rem 0.2rem 1rem #fff,
+    0 0 2rem #fe0000,
+    0 0 4rem #fe0000,
+    0 0 6rem #fe0000,
+    0 0 8rem #fe0000,
+    0 0 10rem #fe0000;
 }
 
+.text-art:hover {
+  animation: flicker6 1s infinite alternate;
+  border: 0.2rem solid #fff;
+  border-radius: 1rem;
+  padding: 5px;
+}
+
+@keyframes flicker6 {
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+
+    box-shadow:
+      0 0 .5rem #fff,
+      inset 0 0 .5rem #fff,
+      0 0 2rem #cfff04,
+      inset 0 0 2rem #cfff04,
+      0 0 4rem #cfff04,
+      inset 0 0 4rem #cfff04;
+  }
+
+  20%,
+  24%,
+  55% {
+    box-shadow: none;
+  }
+}
+
+
 .single-images-box {
+  width: 400px;
+  align-items: center;
   font-size: 50px;
   font-weight: 200;
   color: #fff;
   padding: 1.2rem 1.2rem 1.2rem;
+  margin-right: 100px;
   border: 0.4rem solid #fff;
   border-radius: 2rem;
   animation: flicker4 4.5s infinite alternate;
 }
 
-.single-images-box::-moz-selection {
-  background-color: #6e0dd0;
-}
-
-.single-images-box::selection {
-  background-color: #6e0dd0;
-}
-
-.single-images-box:focus {
-  outline: none;
+.single-images-box img {
+  width: 250px;
+  border-radius: 5px;;
 }
 
 /* Animate neon flicker */
@@ -290,6 +365,66 @@
       inset 0 0 2rem #6e0dd0,
       0 0 4rem #6e0dd0,
       inset 0 0 4rem #6e0dd0;
+  }
+
+  20%,
+  24%,
+  55% {
+    box-shadow: none;
+  }
+}
+
+#image-box {}
+
+
+.delete-button {
+  background-color: black;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  /* animation: flicker5 4.5s infinite alternate; */
+}
+
+.delete-button:hover {
+  background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+  background-color: black;
+  animation: flicker5 1s infinite alternate;
+  color: black;
+}
+
+
+.delete-button:active {
+  position: relative;
+  top: 1px;
+}
+
+@keyframes flicker5 {
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+
+    box-shadow:
+      0 0 .5rem #fff,
+      inset 0 0 .5rem #fff,
+      0 0 2rem #f3f315,
+      inset 0 0 2rem #f3f315,
+      0 0 4rem #f3f315,
+      inset 0 0 4rem #f3f315;
   }
 
   20%,

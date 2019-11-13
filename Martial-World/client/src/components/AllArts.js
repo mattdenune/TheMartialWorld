@@ -19,7 +19,7 @@ class AllArts extends Component {
                 <img alt={art.founder} src={art.founder_img} style={{width: 200}}/>
                 <br />
                 <p className="main-description-box">{art.description}</p>
-                <Link className='text' to={`/arts/${art.id}`} onClick={() => this.props.setArt(art)}>Show Martial Art</Link>
+                <Link className='text-art' to={`/arts/${art.id}`} onClick={() => this.props.setArt(art)}>Show Martial Art</Link>
                 <hr />
             </div>
         )
