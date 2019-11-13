@@ -171,6 +171,7 @@ body {
 
 .main-art-box img,
 .founder-img {
+  width: 300px;
   font-size: 50px;
   font-weight: 200;
   color: #fff;
@@ -334,7 +335,7 @@ body {
   font-weight: 200;
   color: #fff;
   padding: 1.2rem 1.2rem 1.2rem;
-  margin-right: 100px;
+  margin-right: 200px;
   border: 0.4rem solid #fff;
   border-radius: 2rem;
   animation: flicker4 4.5s infinite alternate;
@@ -342,7 +343,8 @@ body {
 
 .single-images-box img {
   width: 250px;
-  border-radius: 5px;;
+  border-radius: 5px;
+  ;
 }
 
 /* Animate neon flicker */
@@ -431,5 +433,27 @@ body {
   24%,
   55% {
     box-shadow: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .main-art-box h1 {
+    font-size: 30px;
+  }
+
+  .single-art-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .single-art-box h1 {
+    font-size: 30px;
+  }
+
+  .single-images-box {
+    width: 60%;
+    margin: 20px auto;
   }
 }
