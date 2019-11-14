@@ -396,7 +396,48 @@ Art.create([{
     style: "Hybrid",
     description: "Created from ill b-ball skillz the art involves a lot of hoopla and malarky. Almost as soon as it was created it was forgotten.",
     images: ["https://steamcdn-a.akamaihd.net/steam/apps/496040/header.jpg?t=1528450091", "https://cdn.vox-cdn.com/thumbor/MtAZiLLVj8-ft4VuYPBiq4EU2vY=/0x0:1920x1080/1200x800/filters:focal(1476x198:1782x504)/cdn.vox-cdn.com/uploads/chorus_image/image/58711127/Shaq_Fu_Screen_5.0.jpg", "https://www.famefocus.com/wp-content/uploads/2018/02/shaq-1000x600.jpg", "https://cdn.bleacherreport.net/images_root/slides/photos/000/983/492/HumbleShaq_original.jpg?1307012060", "https://cdn1.thecomeback.com/wp-content/uploads/sites/94/2018/04/barkley_shaq-760x447.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQdYMFdM13RbgqiwWAdQnUqNd3Q-OIUxLlMveEBBkg75nGeHcja", "https://img.bleacherreport.net/img/images/photos/001/541/561/shaq-vs-the_big_show_original_crop_north.jpg?1327396689&w=3072&h=2048"]
+    },
+    {
+    name: "Gun fu",
+    origin: "United States",
+    founder: "Chow Yun-Fat",
+    founder_img: "http://www.imfdb.org/images/thumb/f/f0/A_Better_Tomorrow_2_Ken_pointing_Beretta.jpg/600px-A_Better_Tomorrow_2_Ken_pointing_Beretta.jpg",
+    style: "Weapons",
+    description: "Gun fu, a portmanteau of gun and kung fu (also known as gun kata, bullet ballet and gymnastic gunplay), is a fictional style of sophisticated close-quarters gunfight resembling a martial arts battle that combines firearms with martial arts and traditional weapons in approximately 50/50 ratio. It can be seen in Hong Kong action cinema and in American films influenced by it.
+
+    The focus of gun fu is both style and the usage of firearms in ways that they were not designed to be used. Shooting a gun from each hand (usually paired with jumping to the side at the same time), shots from behind the back, as well as the use of guns as melee weapons are all common. Other moves can involve shotguns, submachine guns, rocket launchers, and just about anything else that can be worked into a cinematic shot. It is often mixed with hand-to-hand combat maneuvers.",
+    images: ["https://images-na.ssl-images-amazon.com/images/I/41iveg9ym6L.jpg", "https://static.tvtropes.org/pmwiki/pub/images/matrix1_2930.jpg", "https://dougernst.files.wordpress.com/2017/02/john-wick-2.jpg?w=750", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnLd8FZWAN4MN-jLtT8rvIhAbuCDB6t1nKkiyIw3f5jumshe_J", "https://66.media.tumblr.com/5379b1e0e7ea39489ce11aabe7d92f74/tumblr_inline_pq3rcrrB661s1btgh_540.jpg", "http://3.bp.blogspot.com/-8u_xhJNyQYs/UPD7pb3v29I/AAAAAAAADa8/2aKObz2qSm4/s1600/killer.jpg", "http://www.mynameisfoxtrot.com/storage/gun%20kata%20douche%20bag.jpg?__SQUARESPACE_CACHEVERSION=1296054397853", "https://static.vibe.com/files/2015/03/the-rock-bambi-snl-skit-650x366.jpg"]
+    },
+    {
+    name: "White Eyebrow",
+    origin: "China",
+    founder: "Bai Mei",
+    founder_img: "https://i2.wp.com/newsimg.bbc.co.uk/media/images/40042000/jpg/_40042465_bill_gordon203.jpg",
+    style: "Striking",
+    description: "Bak Mei (Chinese: 白眉; pinyin: Bái Méi; Wade–Giles: Pai Mei; Cantonese Yale: Baahk Mèih; literally: 'White Eyebrow') is said to have been one of the legendary Five Elders — survivors of the destruction of the Shaolin Monastery by the Qing dynasty (1644–1912) — who, according to some accounts, betrayed Shaolin to the imperial government. He shares his name with the South Chinese martial art attributed to him.
+
+Bak Mei has been fictionalized in Hong Kong martial arts films such as Executioners from Shaolin (1977), Abbot of Shaolin (1979), and Clan of the White Lotus (1980). Bak Mei as a fictional character is better known in the West as Pai Mei, played by Gordon Liu in the Hollywood action film Kill Bill, Vol. 2 (2004).",
+    images: ["http://cdn-static.denofgeek.com/sites/denofgeek/files/2018/02/bak_mei_-_executioners_from_shaolin.jpg", "https://66.media.tumblr.com/19d0c4ff174fbb3a137e03ca3f2504f0/tumblr_payepnNjbN1u3vseto2_500.jpg", "https://www.popoptiq.com/wp-content/uploads/2012/08/clan_of_the_white_lotus.jpg", "https://pbs.twimg.com/profile_images/3652687036/1dc651f3d58989ebbb1b8e2ff15b24ae_400x400.jpeg", "https://i.pinimg.com/originals/1b/6f/81/1b6f8130e6c0b636a36635ce8505a07c.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShGq5iGAC_DY0gBzod_PMfypr4OXe394vg_VOCXh_o4aE9PLQv", "https://static.wixstatic.com/media/82340b_045f403632c316a015d0605a58032862.jpg"]
+    },
+    {
+    name: "Van Damage",
+    origin: "United States",
+    founder: "Jean-Claude van Damme ",
+    founder_img: "https://res.cloudinary.com/dibsl9ebc/image/upload/v1444086881/mfj6x2huibllpnnwlcsf.jpg",
+    style: "Hybrid",
+    description: "When your short on luck this style is the best you got. Quickly, jump in the air and do a spit kick, quickly again, again, slow motion now! You got this.",
+    images: ["https://images-na.ssl-images-amazon.com/images/I/51PvhXCGbCL.jpg", "https://media.gq.com/photos/5ca3816e8d459e781a133424/16:9/w_2560%2Cc_limit/RLD-JCVD-1.jpg", "https://www.thesun.co.uk/wp-content/uploads/2018/07/NINTCHDBPICT000420880701.jpg?w={width}", "https://i.pinimg.com/originals/1c/a4/5d/1ca45d5ecc4387421c2a75180d014f7a.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTsXUf3SfSUfZkrrQhjkr_DTD4X3zGcz3TrEy5RrpqHt8bIB5vZ", "https://peopledotcom.files.wordpress.com/2016/08/jean-claude-vandamme-800.jpg?w=800&h=600"]
+    },
+    {
+    name: "What Not To Do",
+    origin: "Everywhere",
+    founder: "You Know Who",
+    founder_img: "https://cdn.karatebyjesse.com/wp-content/uploads/2013/03/karatenerdjumpkick.jpg",
+    style: "None",
+    description: "Do not do this silly stuff.  If it sounds magical it's fake.  Trust your gut.",
+    images: ["https://dpzone-dysfunctionalpar.netdna-ssl.com/wp-content/uploads/2013/06/kaarteuseless_feat.jpg", "https://i.pinimg.com/originals/a2/73/f5/a273f50dce0b042d1cfb0182d34cface.jpg", "https://www.martialdevelopment.com/wp-content/uploads/kip-with-sai.jpg", "https://i.ytimg.com/vi/PT_aaOpdRmc/hqdefault.jpg", "https://akathailand.com/aka-media/2017/06/mcdojo.jpg"]
 }
+
     
 ])
 

@@ -5,13 +5,16 @@
 @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
 
 body {
-  background: black;
+  background-image: url(./images/Black-Brick_2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
 }
 
 
 .App {
   text-align: center;
-  background: black;
   color: white;
 }
 
@@ -26,8 +29,12 @@ body {
 }
 
 .header-container {
-  background: black;
-  /* height: 60px; */
+  background-image: url(./images/Black-Brick_2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
   left: 0;
   position: fixed;
   width: 100%;
@@ -96,7 +103,12 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
-  margin-top: 200px;
+  padding-top: 200px;
+  background-image: url(./images/Black-Brick_2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
 }
 
 .main-description-box,
@@ -111,6 +123,11 @@ body {
   align-content: center;
   align-items: center;
   margin-top: 150px;
+  background-image: url(./images/Black-Brick_2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
 }
 
 .single-art-box h1 {
@@ -336,13 +353,14 @@ body {
   color: #fff;
   padding: 1.2rem 1.2rem 1.2rem;
   margin-right: 200px;
+  margin-top: 100px;
   border: 0.4rem solid #fff;
   border-radius: 2rem;
   animation: flicker4 4.5s infinite alternate;
 }
 
 .single-images-box img {
-  width: 250px;
+  width: 300px;
   border-radius: 5px;
   ;
 }
@@ -440,6 +458,7 @@ body {
 
   .main-art-box h1 {
     font-size: 30px;
+    /* display: flex; */
   }
 
   .single-art-box {
@@ -450,10 +469,16 @@ body {
 
   .single-art-box h1 {
     font-size: 30px;
+    /* margin-left: -15px; */
   }
 
   .single-images-box {
     width: 60%;
     margin: 20px auto;
+  }
+
+  .single-images-box img {
+    width: 250px;
+    ;
   }
 }
