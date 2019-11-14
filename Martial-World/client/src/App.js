@@ -19,7 +19,7 @@ class App extends Component {
   }
 
   getAllArts = () => {
-    axios.get("http://localhost:3000/arts").then(jsonRes => {
+    axios.get("/arts").then(jsonRes => {
       this.setState({
         arts: jsonRes.data.arts,
         artsLoaded: true

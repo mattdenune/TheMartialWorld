@@ -19,7 +19,7 @@ class ArtForm extends Component {
 
         const idParams = this.props.match.params.idParams
         if (this.props.currentArt.id !== idParams){
-            const res = await axios.get('http://localhost:3000/arts/' + idParams)
+            const res = await axios.get('/arts/' + idParams)
             const {name, origin, founder, founder_img, style, description} = res.data.art;
             this.setState({
                 name,
@@ -48,8 +48,8 @@ class ArtForm extends Component {
         event.preventDefault()
         const idParams = this.props.match.params.id
         const res = this.props.isUpdateForm ?
-        await axios.put('http://localhost:3000/arts/' + idParams, this.state) :
-        await axios.post('http://localhost:3000/arts/', this.state)
+        await axios.put('/arts/' + idParams, this.state) :
+        await axios.post('/arts/', this.state)
 
         const art = res.data.art
         this.props.setArt(art)

@@ -9,14 +9,14 @@ class ShowArt extends Component {
     async componentDidMount() {
         const idParams = this.props.match.params.id
         if (this.props.currentArt.id !== idParams){
-            const artData = await axios.get('http://localhost:3000/arts/' + idParams)
+            const artData = await axios.get('/arts/' + idParams)
             this.props.setArt(artData.data.art)
         }
         
     }
 
     handleDelete = async () => {
-        await axios.delete('http://localhost:3000/arts/' + this.props.currentArt.id)
+        await axios.delete('/arts/' + this.props.currentArt.id)
         this.props.handleDeleteArt(this.props.currentArt)
         this.props.history.push('/')
     }

@@ -411,12 +411,12 @@ Art.create([{
     {
     name: "White Eyebrow",
     origin: "China",
-    founder: "Bai Mei",
+    founder: "Bak Mei",
     founder_img: "https://i2.wp.com/newsimg.bbc.co.uk/media/images/40042000/jpg/_40042465_bill_gordon203.jpg",
     style: "Striking",
-    description: "Bak Mei (Chinese: 白眉; pinyin: Bái Méi; Wade–Giles: Pai Mei; Cantonese Yale: Baahk Mèih; literally: 'White Eyebrow') is said to have been one of the legendary Five Elders — survivors of the destruction of the Shaolin Monastery by the Qing dynasty (1644–1912) — who, according to some accounts, betrayed Shaolin to the imperial government. He shares his name with the South Chinese martial art attributed to him.
+    description: "Bak Mei (Chinese: Bái Méi; Wade–Giles: Pai Mei; Cantonese Yale: Baahk Mèih; literally: 'White Eyebrow') is said to have been one of the legendary Five Elders — survivors of the destruction of the Shaolin Monastery by the Qing dynasty (1644–1912) — who, according to some accounts, betrayed Shaolin to the imperial government. He shares his name with the South Chinese martial art attributed to him.
 
-Bak Mei has been fictionalized in Hong Kong martial arts films such as Executioners from Shaolin (1977), Abbot of Shaolin (1979), and Clan of the White Lotus (1980). Bak Mei as a fictional character is better known in the West as Pai Mei, played by Gordon Liu in the Hollywood action film Kill Bill, Vol. 2 (2004).",
+    Bak Mei has been fictionalized in Hong Kong martial arts films such as Executioners from Shaolin (1977), Abbot of Shaolin (1979), and Clan of the White Lotus (1980). Bak Mei as a fictional character is better known in the West as Pai Mei, played by Gordon Liu in the Hollywood action film Kill Bill, Vol. 2 (2004).",
     images: ["http://cdn-static.denofgeek.com/sites/denofgeek/files/2018/02/bak_mei_-_executioners_from_shaolin.jpg", "https://66.media.tumblr.com/19d0c4ff174fbb3a137e03ca3f2504f0/tumblr_payepnNjbN1u3vseto2_500.jpg", "https://www.popoptiq.com/wp-content/uploads/2012/08/clan_of_the_white_lotus.jpg", "https://pbs.twimg.com/profile_images/3652687036/1dc651f3d58989ebbb1b8e2ff15b24ae_400x400.jpeg", "https://i.pinimg.com/originals/1b/6f/81/1b6f8130e6c0b636a36635ce8505a07c.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShGq5iGAC_DY0gBzod_PMfypr4OXe394vg_VOCXh_o4aE9PLQv", "https://static.wixstatic.com/media/82340b_045f403632c316a015d0605a58032862.jpg"]
     },
     {
