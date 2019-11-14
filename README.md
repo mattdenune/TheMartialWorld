@@ -1,5 +1,9 @@
 # Project Overview
+    This project was a lot of fun and I'm very proud of the MVP. The idea of showing off the beaten path martial arts is something that I'm passionate about so creating a running list with detail and pictures in full CRUD fasion seemed like a great idea.  Because we are fairly new to full stack applications I stayed close to the architecture of the few repos that we did in class. I took my time to make personal adjustments to the code and create something new.  
 
+    I find that I really shined in the styling of this app.  CSS and design are things that I'm supper passionate about.  I really wanted to make the theme fit the content of the app and unknown and undergrown martial arts are synonymous with the gritty neon lights and back allys of the city. 
+
+    
 ## Project Schedule
 
 This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
