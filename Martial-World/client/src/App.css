@@ -1,6 +1,4 @@
-/* * {
-  border: 1px solid red;
-} */
+ /* Neon lighting and text code was used and adapted from    https://codepen.io/GeorgePark/pen/MrjbEr */
 
 @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
 
@@ -9,7 +7,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* position: relative; */
 }
 
 
@@ -53,7 +50,7 @@ body {
   animation: flicker7 1.9s infinite alternate;
 }
 
-/* Animate neon flicker */
+
 @keyframes flicker7 {
 
   0%,
@@ -93,7 +90,6 @@ body {
 
 
 .footer {
-  /* position: fixed; */
   height: 100px;
 }
 
@@ -108,7 +104,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* position: relative; */
 }
 
 .main-description-box,
@@ -127,7 +122,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* position: relative; */
 }
 
 .single-art-box h1 {
@@ -148,7 +142,7 @@ body {
   animation: flicker 1.5s infinite alternate;
 }
 
-/* Animate neon flicker */
+
 @keyframes flicker {
 
   0%,
@@ -199,7 +193,7 @@ body {
   animation: flicker2 4s infinite alternate;
 }
 
-/* Animate neon flicker */
+
 @keyframes flicker2 {
 
   0%,
@@ -252,7 +246,7 @@ body {
   outline: none;
 }
 
-/* Animate neon flicker */
+
 @keyframes flicker3 {
 
   0%,
@@ -365,7 +359,7 @@ body {
   ;
 }
 
-/* Animate neon flicker */
+
 @keyframes flicker4 {
 
   0%,
@@ -394,9 +388,6 @@ body {
   }
 }
 
-#image-box {}
-
-
 .delete-button {
   background-color: black;
   border-radius: 6px;
@@ -410,7 +401,6 @@ body {
   padding: 6px 24px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #ffffff;
-  /* animation: flicker5 4.5s infinite alternate; */
 }
 
 .delete-button:hover {
@@ -469,7 +459,6 @@ body {
 
   .single-art-box h1 {
     font-size: 30px;
-    /* margin-left: -15px; */
   }
 
   .single-images-box {

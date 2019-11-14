@@ -33,7 +33,6 @@ class ShowArt extends Component {
                     <p className='text'><strong>Founded by:</strong> {art.founder}</p> 
                     <img className='founder-img' alt={art.founder} src={art.founder_img} style={{ width: 200 }} />
                     <p className='single-description-box'>{art.description}</p>
-                    {/* <img alt={art.founder} src={art.images} style={{ width: 200 }} /> */}
 
                     <button className='delete-button' onClick={this.handleDelete}>Delete</button>
                 </div>
@@ -44,9 +43,6 @@ class ShowArt extends Component {
                     ))    
                     }
                 </div>
-                {/* <div>
-                    <button onClick={this.handleDelete}>Delete</button>
-                </div> */}
             </div>
         )
     }
